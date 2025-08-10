@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6fff6;
+    color: #333;
+}
+
+header {
+    background-color: #3c6e47;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #264d2f;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('images/upcoming.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.product {
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 15px;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #dff0d8;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #3c6e47;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
